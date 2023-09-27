@@ -1,0 +1,105 @@
+/* Estilos para el menú de navegación */
+.menu {
+    background-color: #954ef1;
+    color: #fff;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+.banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 18px;
+}
+/* Estilos para las tarjetas */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #1e7deb;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.btn-leer-mas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dfff2a;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-leer-mas:hover {
+    background-color: #0056b3;
+}
